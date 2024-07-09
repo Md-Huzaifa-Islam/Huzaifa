@@ -211,6 +211,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 #currenttarget>p{
@@ -254,3 +255,53 @@ section {
 #part3{
     background: rgba(255, 223, 0, 0.05);
 }
+
+
+
+
+
+/*  my next target section  */
+
+#nexttarget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#nexttarget> p{
+    width: 60vw;
+    text-align: center;
+    margin: 24px 0px 48px 0px;
+}
+
+.technologycontainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.technology{
+    height: 15.28vw;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    gap: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.technology p{
+    
+    margin: 8px 0px 24px 0px;
+}
+
+
+
+
+
+/*    support section    */
+
+
