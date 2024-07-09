@@ -9,7 +9,6 @@
 
 
 
-
 /* common styles  */
 
 .blackbtn{
@@ -304,4 +303,85 @@ section {
 
 /*    support section    */
 
+#support{
+    border-radius: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 64px 48px;
+    text-align: center;
+    margin-bottom: 80px;
+}
 
+#support h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#support p{
+    margin: 16px 0px 24px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#support div{
+    width: 47.5vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#support input{
+    width: 80%;
+    padding: 1rem 0rem 1rem 3rem;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+#support button{
+    width: 18%;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+
+
+
+/*    footer   */
+
+footer{
+    padding: 32px 0px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+footer>div{
+    width: 78vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#icons{
+    display: flex;
+    gap: 24px;
+}
