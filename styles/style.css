@@ -78,18 +78,20 @@ p{
     text-decoration-line: underline;
 }
 
+button{
+    cursor: pointer;
+}
 
 
 /*   banner section    */
 
 header{
-    height: 54.375vw;
     display: flex;
     flex-direction: column;
 }
 
 nav{
-    margin: 40px 11.5vw;
+    margin: 35px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,19 +103,30 @@ nav h3{
     font-weight: 800;
 }
 
-
-#banner{
-    height: 45.27vw;
+header>div{
+    padding: 26px 0px 44px;
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30px 15.27vw 50px 15.27vw;
+    background-position: center;
+}
+
+
+#banner{
+    max-width: 1000px;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 }
 
+#banner h1{
+    margin: 32px 0px 24px;
+}
+
+#banner p{
+    margin: 0px 70px 32px;
+}
 
 
 /*   main section  */
@@ -385,3 +398,5 @@ footer p{
     display: flex;
     gap: 24px;
 }
+
+
